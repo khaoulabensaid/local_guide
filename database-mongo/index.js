@@ -1,4 +1,5 @@
 var mongoose = require("mongoose");
+var User = require('../server/resources/models/model');
 mongoose.connect("mongodb://localhost/todo");
 var db = mongoose.connection;
 
