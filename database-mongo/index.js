@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/todo");
+mongoose.connect("mongodb://localhost/guide");
 var db = mongoose.connection;
 
 db.on("error", function () {
