@@ -1,6 +1,7 @@
 var mongoose = require("mongoose");
+
 var User = require('../server/resources/models/model');
-mongoose.connect("mongodb://localhost/todo");
+mongoose.connect("mongodb://localhost/guide");
 var db = mongoose.connection;
 
 db.on("error", function () {
